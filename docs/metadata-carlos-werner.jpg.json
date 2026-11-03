@@ -1,0 +1,100 @@
+{
+  "retrieved_at": "2026-10-23",
+  "file": "File:Carlos Werner.jpg",
+  "pageid": 52590093,
+  "imageinfo": {
+    "size": 18190,
+    "width": 250,
+    "height": 333,
+    "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Carlos_Werner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "thumbwidth": 1000,
+    "thumbheight": 1332,
+    "thumbattribs": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Carlos_Werner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "decoding": "async",
+      "loading": "lazy",
+      "width": 1000,
+      "height": 1332
+    },
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Carlos_Werner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "descriptionurl": "https://commons.wikimedia.org/wiki/File:Carlos_Werner.jpg",
+    "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=52590093",
+    "extmetadata": {
+      "DateTime": {
+        "value": "2016-10-28 22:22:12",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Carlos Werner",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Media contributed by the Library of the National Congress of Chile|PD-Chile|Unknown date|Template Unknown (author)|CC-Historia Política BCN|Carlos Werner",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Carlos Werner Richter Nació en Osorno en 1859, Falleció en Alemania, siendo Senador de la República, el 26 de enero de 1926. Sus restos fueron devueltos a Chile. Fue dueño de la fábrica textil Bellavista Oveja Tomé.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "Unknown date",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://biografias.bcn.cl/images/6/6f/Carlos_Werner_Rither.jpg\">http://biografias.bcn.cl/images/6/6f/Carlos_Werner_Rither.jpg</a>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+        "source": "commons-desc-page"
+      },
+      "Permission": {
+        "value": "This image is taken from the website of <a rel=\"nofollow\" class=\"external text\" href=\"https://www.bcn.cl/historiapolitica/\">Political History</a> of the Library of the Chilean National Congress, which is under the following licence:",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Public domain",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Copyrighted": {
+        "value": "False",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "pd",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "mime": "image/jpeg"
+  }
+}

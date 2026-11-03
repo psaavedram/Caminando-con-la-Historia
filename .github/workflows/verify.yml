@@ -1,0 +1,67 @@
+name: Verificar versión
+
+on:
+  push:
+    branches: ['**']
+    tags: ['v*']
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run version:check
+      - run: npx playwright install --with-deps chromium
+      - run: npm run build
+      - run: npm test
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: pruebas-fallidas
+          path: test-results/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: aplicacion-verificada
+          path: |
+            prototipo.html
+            dist/
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: verify
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/download-artifact@v4
+        with:
+          name: aplicacion-verificada
+          path: release/
+      - name: Preparar notas y sitio compilado
+        run: |
+          node scripts/check-version.mjs --notes > release-notes.md
+          cd release/dist
+          zip -r ../sitio-web.zip .
+      - name: Publicar versión con descargas
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: >-
+          gh release create "$RELEASE_TAG"
+          release/prototipo.html release/sitio-web.zip
+          --verify-tag
+          --title "Caminando con la Historia $RELEASE_TAG"
+          --notes-file release-notes.md
