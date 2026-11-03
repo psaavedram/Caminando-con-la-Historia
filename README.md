@@ -6,6 +6,10 @@ Prototipo web adaptable a Android, iPhone y escritorio, desarrollado con React y
 
 **1.0.0 — Prototipo de Tomé.** Características, correcciones y limitaciones: [Historial de cambios](CHANGELOG.md). Numeración y publicación de las siguientes versiones: [Versionado](docs/versionado.md). El número también aparece en el pie de la aplicación.
 
+## Cómo avanzamos
+
+Usamos [ingeniería de software práctica](docs/ingenieria-practica.md): cada cambio parte de una necesidad observable, se comprueba según su impacto y queda registrado en Git. La [trazabilidad](docs/trazabilidad.md) relaciona requisitos, decisiones y motivos, código, pruebas, entregas y pendientes. Incluye la arquitectura existente y la incorporación posterior de bases de datos, todavía diferida. Los informes de avance explican brevemente qué se hizo, por qué y con qué evidencia.
+
 ## Ver el prototipo sin instalar nada
 
 Abre `prototipo.html` en Chrome, Safari, Edge o Firefox. Este archivo incluye la aplicación compilada, estilos, fuentes e ilustraciones; no requiere terminal ni Node.js. También puedes descargarlo y abrirlo con doble clic. El mapa base necesita conexión, pero hay una vista esquemática si no se puede descargar.

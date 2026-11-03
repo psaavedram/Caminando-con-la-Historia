@@ -2,6 +2,12 @@
 
 Cada versión publicada tiene una etiqueta Git `vMAYOR.MENOR.CORRECCIÓN`, sus características, cambios, validación y limitaciones. La política y el procedimiento están en [Versionado](docs/versionado.md).
 
+## Sin publicar
+
+### Documentación
+
+- CAM-002: se adopta un método práctico de ingeniería de software con requisitos observables, decisiones justificadas, arquitectura actual, vínculos a pruebas y cambios, y pendientes explícitos. Se documenta la incorporación gradual de una base de datos para una etapa posterior. Se actualizan las instrucciones del repositorio para mantener este rastro y explicar las observaciones al usuario. La aplicación permanece en 1.0.0; no hay cambios ejecutables.
+
 ## [1.0.0] - 2026-11-03
 
 Primera versión del prototipo de Caminando con la Historia, centrada en Tomé. Reúne el desarrollo previo, que aún no tenía versiones guardadas en Git. Es la base para las siguientes iteraciones; no implica una aplicación turística definitiva.

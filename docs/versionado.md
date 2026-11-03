@@ -12,6 +12,8 @@ La versión inicial es **1.0.0**, etiqueta **v1.0.0**. Reúne el prototipo de To
 
 Los ejemplos no son compromisos ni versiones ya implementadas. Al subir MENOR se reinicia CORRECCIÓN; al subir MAYOR se reinician los otros dos números. La etiqueta publicada es permanente: cualquier arreglo posterior recibe otro número, sin mover ni sobrescribir etiquetas anteriores. Cambiar la versión no debe borrar los datos locales; su formato se migra por separado cuando sea necesario.
 
+Los ajustes exclusivamente documentales o de organización del trabajo se guardan en commits identificados en [trazabilidad](trazabilidad.md), sin incrementar la versión ejecutable ni mover su etiqueta. Pueden anotarse como documentación sin publicar en `CHANGELOG.md`; se integran en las notas de la siguiente entrega cuando corresponda. Por eso `main` puede contener documentación posterior a una etiqueta publicada. Un cambio en el comportamiento, contenido servido o compilación de la aplicación sí se evalúa para la siguiente versión. El método de trabajo está en [Ingeniería práctica](ingenieria-practica.md).
+
 ## Qué queda guardado
 
 - `package.json` y `package-lock.json`: número de versión y dependencias reproducibles.
